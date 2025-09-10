@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhotoBooth</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📸 PhotoBooth</h1>
+
+  <video id="video" autoplay playsinline width="400" height="300"></video>
+  <canvas id="canvas" width="400" height="300" style="display:none;"></canvas>
+
+  <div class="buttons">
+    <button id="snap">📷 Take Photo</button>
+    <button id="gotoViewer">👀 View Gallery</button>
+  </div>
+
+  <h2>Gallery (This Session)</h2>
+  <div id="gallery"></div>
+
+  <footer>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT Logo">
+    Created with ❤️ by ChatGPT
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
